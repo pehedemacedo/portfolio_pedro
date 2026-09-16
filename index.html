@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfólio - Pedro H. Macedo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Navegação principal">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Portfólio - Pedro H. Macedo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/projetos.html">Projetos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Certificados</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/pages/certificados/senai.html">Senai</a></li>
+                            <li><a class="dropdown-item" href="/pages/certificados/sesi.html">Sesi</a></li>
+                            <li><a class="dropdown-item" href="/pages/certificados/gerais.html">Gerais</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-texto">
+                <!-- <span class="hero-tag">Desenvolvimento Web</span> -->
+                <h1>Pedro H. Macedo</h1>
+                <p>
+                    Estudante de tecnologia e desenvolvedor front-end em formação. Gosto de transformar ideias em
+                    interfaces simples, responsivas e fáceis de usar.
+                </p>
+                <div class="hero-acoes">
+                    <a href="/pages/projetos.html" class="btn btn-light btn-lg">
+                        <i class="bi bi-folder2-open"></i>
+                        Ver projetos
+                    </a>
+                    <!-- <a href="#contato" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-chat-dots"></i>
+                        Fale comigo
+                    </a> -->
+                </div>
+            </div>
+            <img class="hero-avatar" src="/assets/img/eu.jpg" alt="Foto de Pedro H. Macedo" width="220" height="220">
+        </div>
+    </header>
+
+    <main>
+        <section class="secao reveal" id="sobre">
+            <div class="secao-container">
+                <h2 class="secao-titulo">Sobre mim</h2>
+                <p class="secao-texto">
+                    Sou estudante de Desenvolvimento de Software no Senai Diadema e moro em São Bernardo do Campo - SP.
+                    Tenho interesse em desenvolvimento web e venho praticando HTML, CSS e JavaScript em projetos
+                    próprios, usando Git e GitHub no dia a dia. Busco minha primeira oportunidade na área para evoluir
+                    junto com um time de verdade.
+                </p>
+                <ul class="sobre-infos">
+                    <li><i class="bi bi-geo-alt-fill"></i> São Bernardo do Campo - SP</li>
+                    <li><i class="bi bi-mortarboard-fill"></i> Desenvolvimento de Software / Senai Diadema</li>
+                    <li><i class="bi bi-envelope-fill"></i> pehedemacedo@gmail.com</li>
+                    <li><i class="bi bi-github"></i> github.com/pehedemacedo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="secao reveal" id="habilidades">
+            <div class="secao-container">
+                <h2 class="secao-titulo">Habilidades</h2>
+                <p class="secao-texto">Tecnologias e ferramentas que uso nos meus estudos e projetos.</p>
+                <div class="skills">
+                    <span class="skill"><i class="bi bi-filetype-html"></i> HTML5</span>
+                    <span class="skill"><i class="bi bi-filetype-css"></i> CSS3</span>
+                    <span class="skill"><i class="bi bi-filetype-js"></i> JavaScript</span>
+                    <span class="skill"><i class="bi bi-bootstrap-fill"></i> Bootstrap</span>
+                    <span class="skill"><i class="bi bi-git"></i> Git</span>
+                    <span class="skill"><i class="bi bi-github"></i> GitHub</span>
+                    <span class="skill"><i class="bi bi-unity"></i> Unity</span>
+                    <span class="skill">C# & C++</span>
+                    <span class="skill"><i class="bi bi-filetype-py"></i> Python</span>
+
+                </div>
+            </div>
+        </section>
+        <section class="secao reveal" id="projetos">
+            <div class="secao-container">
+                <h2 class="secao-titulo">Projetos em destaque</h2>
+                <p class="secao-texto">Alguns trabalhos que desenvolvi durante os estudos.</p>
+
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <article class="projeto-card">
+                            <div class="projeto-thumb"><i class="bi bi-code-slash"></i></div>
+                            <div class="projeto-corpo">
+                                <h3>Projeto 1</h3>
+                                <p>Descreva aqui o objetivo do projeto e o que ele faz.</p>
+                                <div class="projeto-tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                </div>
+                                <a class="projeto-link" href="https://github.com/pehedemacedo" target="_blank"
+                                    rel="noopener">
+                                    <i class="bi bi-github"></i> Ver código
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <article class="projeto-card">
+                            <div class="projeto-thumb"><i class="bi bi-journal-code"></i></div>
+                            <div class="projeto-corpo">
+                                <h3>Projeto 2</h3>
+                                <p>Descreva aqui o objetivo do projeto e o que ele faz.</p>
+                                <div class="projeto-tags">
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">Bootstrap</span>
+                                </div>
+                                <a class="projeto-link" href="https://github.com/pehedemacedo" target="_blank"
+                                    rel="noopener">
+                                    <i class="bi bi-github"></i> Ver código
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <article class="projeto-card">
+                            <div class="projeto-thumb"><i class="bi bi-kanban-fill"></i></div>
+                            <div class="projeto-corpo">
+                                <h3>Projeto 3</h3>
+                                <p>Descreva aqui o objetivo do projeto e o que ele faz.</p>
+                                <div class="projeto-tags">
+                                    <span class="tag">Git</span>
+                                    <span class="tag">GitHub</span>
+                                </div>
+                                <a class="projeto-link" href="https://github.com/pehedemacedo" target="_blank"
+                                    rel="noopener">
+                                    <i class="bi bi-github"></i> Ver código
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="secao-acao">
+                    <a href="/pages/projetos.html" class="btn btn-dark btn-lg">
+                        <i class="bi bi-folder2-open"></i> Ver todos os projetos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="secao reveal" id="formacao">
+            <div class="secao-container">
+                <h2 class="secao-titulo">Formação e certificados</h2>
+                <p class="secao-texto">Cursos e certificações que já concluí.</p>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <a class="cert-resumo" href="/pages/certificados/senai.html">
+                            <i class="bi bi-award-fill"></i>
+                            <h3>Senai</h3>
+                            <p>Certificados dos cursos técnicos do Senai.</p>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="cert-resumo" href="/pages/certificados/sesi.html">
+                            <i class="bi bi-patch-check-fill"></i>
+                            <h3>Sesi</h3>
+                            <p>Certificados dos cursos e formações do Sesi.</p>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a class="cert-resumo" href="/pages/certificados/gerais.html">
+                            <i class="bi bi-mortarboard-fill"></i>
+                            <h3>Gerais</h3>
+                            <p>Outros cursos, eventos e certificações.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao contato reveal" id="contato">
+            <div class="secao-container">
+                <h2 class="secao-titulo">Vamos conversar?</h2>
+                <p class="secao-texto">Estou aberto a oportunidades de estágio, projetos e troca de ideias.</p>
+
+                <div class="contato-canais">
+                    <a class="contato-canal" href="mailto:pehedemacedo@gmail.com">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <span>E-mail</span>
+                        <strong>pehedemacedo@gmail.com</strong>
+                    </a>
+
+                    <a class="contato-canal" href="https://github.com/pehedemacedo" target="_blank" rel="noopener">
+                        <i class="bi bi-github"></i>
+                        <span>GitHub</span>
+                        <strong>@pehedemacedo</strong>
+                    </a>
+
+                    <a class="contato-canal" href="https://br.linkedin.com/in/pedro-henrique-de-macedo-b0b282435"
+                        target="_blank" rel="noopener">
+                        <i class="bi bi-linkedin"></i>
+                        <span>LinkedIn</span>
+                        <strong>Pedro Henrique de Macedo</strong>
+                    </a>
+
+                    <a class="contato-canal" href="https://wa.me/5511966451310" target="_blank" rel="noopener">
+                        <i class="bi bi-whatsapp"></i>
+                        <span>WhatsApp</span>
+                        <strong>(11) 96645-1310</strong>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-sub">
+                <p>Entre em Contato!</p>
+
+                <div class="footer-contato">
+                    <a href="mailto:pehedemacedo@gmail.com">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        pehedemacedo@gmail.com
+                    </a>
+
+                    <a href="https://github.com/pehedemacedo" target="_blank" rel="noopener">
+                        <i class="bi bi-github"></i>
+                        GitHub
+                    </a>
+
+                    <a href="https://br.linkedin.com/in/pedro-henrique-de-macedo-b0b282435" target="_blank"
+                        rel="noopener">
+                        <i class="bi bi-linkedin"></i>
+                        LinkedIn
+                    </a>
+
+                    <a href="https://wa.me/5511966451310" target="_blank" rel="noopener">
+                        <i class="bi bi-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h5>Páginas</h5>
+
+                <a href="/index.html">Início</a>
+                <a href="/pages/projetos.html">Projetos</a>
+                <a href="/index.html#contato">Contato</a>
+            </div>
+
+            <div class="footer-links">
+                <h5>Certificados</h5>
+
+                <a href="/pages/certificados/senai.html">Senai</a>
+                <a href="/pages/certificados/sesi.html">Sesi</a>
+                <a href="/pages/certificados/gerais.html">Gerais</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
